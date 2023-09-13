@@ -13,7 +13,7 @@
 				let max=arr[0];
 				let secondmax=arr[1];
 			if (arr.length<2) {
-				return '-Infinity';
+				return 'undefined';
 			}
 			else if(arr.lenght==2){
 			 	let currentmax=max>secondmax?max:secondmax;
@@ -30,7 +30,7 @@
 					}
 				}
 				if(max==secondmax){
-					return '-Infinity';
+					return 'undefined';
 				}
 				else{
 					return secondmax;
@@ -46,7 +46,7 @@
 			}
 			alert(secondHighest(arr));
 		}
-		Main();
+		// Main();
 	</script>
 
     <script type="text/javascript" src="./script.js">
